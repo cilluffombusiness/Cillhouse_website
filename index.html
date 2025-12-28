@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cill House - Trapani Centro Storico</title>
+    
+
+
+    <!-- Iubenda Scripts -->
+    <script type="text/javascript" src="https://embeds.iubenda.com/widgets/217801ba-5b60-412e-bbd5-dbbf891ebe3f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" crossorigin="anonymous">
+      (function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; s.setAttribute('crossorigin', 'anonymous'); tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);
+    </script>
+
+    <!-- Tailwind & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font Selezionati: Summer (Pacifico), Elegant (Great Vibes), Playful (Dancing Script), Handwritten (Caveat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Pacifico&family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+              montserrat: ['Montserrat', 'sans-serif'],
+              // Nuovi font per testare
+              summer: ['Pacifico', 'cursive'],
+              elegant: ['"Great Vibes"', 'cursive'],
+              script: ['"Dancing Script"', 'cursive'],
+              handwritten: ['Caveat', 'cursive'],
+            },
+            colors: {
+              primary: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                800: '#075985',
+                900: '#0c4a6e',
+              },
+              sand: {
+                50: '#fdfbf7',
+                100: '#f7f3e8',
+                200: '#efe5cd',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      /* Animazione per l'effetto onda sul testo se necessario */
+      .wave-text {
+        display: inline-block;
+        animation: wave 3s ease-in-out infinite;
+      }
+      @keyframes wave {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+    </style>
+  <link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@0.475.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.3.0",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Cillhouse_website/assets/index-DxxaZ7W8.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
