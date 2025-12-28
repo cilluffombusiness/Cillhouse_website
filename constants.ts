@@ -79,7 +79,7 @@ export const TRANSLATIONS: Record<string, Translation> = {
           id: 'r4',
           title: "Cucina Attrezzata",
           description: "Cucina completa di tutto il necessario per i vostri pasti.",
-          features: ["Piano cottura", "Forno", "Frigorifero", "Stoviglie complete"],
+          features: ["Piano cottura", "Forno a Microonde", "Frigorifero", "Stoviglie complete"],
           images: IMAGES.rooms.kitchen,
           maxGuests: 0
         },
@@ -207,7 +207,7 @@ export const TRANSLATIONS: Record<string, Translation> = {
           id: 'r4',
           title: "Kitchen",
           description: "Full kitchen with everything needed.",
-          features: ["Stovetop", "Oven", "Fridge", "Utensils"],
+          features: ["Stovetop", "Microwave", "Fridge", "Utensils"],
           images: IMAGES.rooms.kitchen,
           maxGuests: 0
         },
@@ -335,7 +335,7 @@ export const TRANSLATIONS: Record<string, Translation> = {
           id: 'r4',
           title: "Cocina",
           description: "Cocina completa con todo lo necesario.",
-          features: ["Fogones", "Horno", "Nevera", "Utensilios"],
+          features: ["Fogones", "Microondas", "Nevera", "Utensilios"],
           images: IMAGES.rooms.kitchen,
           maxGuests: 0
         },
@@ -463,7 +463,7 @@ export const TRANSLATIONS: Record<string, Translation> = {
           id: 'r4',
           title: "Cuisine",
           description: "Équipée pour vos repas.",
-          features: ["Plaque", "Four", "Frigo", "Ustensiles"],
+          features: ["Plaque", "Four à micro-ondes", "Frigo", "Ustensiles"],
           images: IMAGES.rooms.kitchen,
           maxGuests: 0
         },
