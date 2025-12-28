@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://cilluffombusiness.github.io/Cillhouse_website"
+  "homepage": "https://cilluffombusiness.github.io/Cillhouse_website",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
